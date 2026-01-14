@@ -7,11 +7,7 @@
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/brand/logo.png')}}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/brand/logo.png')}}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/brand/logo.png')}}">
-<link rel="manifest" href="{{ asset('assets/img/favicon/site.webmanifest')}}">
-<link rel="mask-icon" href="{{ asset('assets/img/favicon/safari-pinned-tab.svg')}}" color="#ffffff">
+        
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
 
