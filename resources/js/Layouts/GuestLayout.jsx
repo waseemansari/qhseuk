@@ -1,0 +1,11 @@
+import ApplicationLogo from '@/Components/ApplicationLogo';
+import { Link } from '@inertiajs/react';
+
+export default function GuestLayout({ children }) {
+    return (
+        <div class=" w-full overflow-hidden bg-white px-6 py-4 shadow-md sm:max-w-md sm:rounded-lg">
+                {children}
+            </div>
+    );
+}
+ 

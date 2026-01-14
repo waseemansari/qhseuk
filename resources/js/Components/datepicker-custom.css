@@ -1,0 +1,22 @@
+.react-datepicker {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-family: 'Inter', sans-serif;
+}
+
+.react-datepicker__header {
+  background-color: #3b82f6; /* Tailwind blue-500 */
+  color: white;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: #1d4ed8 !important;
+  color: white !important;
+  border-radius: 50%;
+}
+
+.react-datepicker__day:hover {
+  background-color: #93c5fd;
+  border-radius: 50%;
+}
